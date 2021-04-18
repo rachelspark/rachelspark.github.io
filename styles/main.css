@@ -50,8 +50,8 @@ footer a:not(.button):not(.fa){
     padding-left: 2px;
     padding-right: 2px;
     color: black;
-    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent), color-stop(65%, rgba(0, 131, 255, 0.2)), to(rgba(0, 131, 255, 0.2)));
-    background: linear-gradient(to bottom, transparent 0, transparent 65%, rgba(0, 131, 255, 0.2) 65%, rgba(0, 131, 255, 0.2) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(65%, transparent), color-stop(65%, rgba(242, 87, 87, 0.2)), to(rgba(242, 87, 87, 0.2)));
+    background: linear-gradient(to bottom, transparent 0, transparent 65%, rgba(242, 87, 87, 0.2) 65%, rgba(242, 87, 87, 0.2) 100%);
     text-decoration: none;
     transition: color 0.5s ease-in-out;
 }
