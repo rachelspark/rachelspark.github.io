@@ -1,9 +1,9 @@
 /* VARIABLES */
 
 :root {
-    --color-blue: #0083ff;
-    --color-pink: #ff5470;
-    --color-slate: #415869;
+    --color-blue: #4CB5AE;
+    --color-pink: #F25757;
+    --color-slate: #495867;
     --color-offwhite: #fbfbfc;
     --color-ghpurple: #6f42c1;
     --color-lightgray: #ededed;
@@ -60,7 +60,7 @@ main a:not(.button):focus,
 main a:not(.button):hover,
 footer a:not(.button):focus,
 footer a:not(.button):hover {
-    background: var(--color-blue);
+    background: var(--color-pink);
     color: white;
     transition: all 0.25s;
 }
@@ -68,8 +68,8 @@ footer a:not(.button):hover {
 /***** Headers */
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4 {
     line-height: 1.25em;
     padding-top: 0.5em;
@@ -104,7 +104,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 640px) {    
+@media screen and (max-width: 640px) {
     .quarter > h4:first-child,
     .half > h4:first-child {
         margin-top: 1.5em;
@@ -137,6 +137,10 @@ img {
     color: white;
     font-weight: bold;
     background-color: var(--color-blue);
+}
+
+.pink {
+    color: var(--color-pink);
 }
 
 .pink-block {
@@ -183,7 +187,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--color-blue);
+    color: var(--color-pink);
     transition: all 0.25s;
 }
 
@@ -219,7 +223,7 @@ nav a {
     nav {
         margin-top: 18px;
     }
-    
+
     nav a:first-child{
         margin-left: 0;
     }
@@ -227,7 +231,7 @@ nav a {
 
 @media screen and (max-width: 360px) {
     nav a {
-        margin: 1em 0.5em;   
+        margin: 1em 0.5em;
     }
 }
 
@@ -249,7 +253,7 @@ footer > * {
     footer {
         padding: 1.5em;
     }
-    
+
     footer p {
         padding: 0;
         margin: 0;
@@ -260,7 +264,7 @@ footer > * {
     footer {
         display: block;
     }
-    
+
     footer .icon-bar {
         margin-bottom: 15px;
     }
@@ -348,17 +352,17 @@ ol li > * {
 }
 
 .list-bar.buttons li {
-    transition: all 0.25s ease-in-out;  
+    transition: all 0.25s ease-in-out;
 }
 
 .list-bar.buttons li:hover {
     opacity: 0.5;
-    transition: all 0.25s;  
+    transition: all 0.25s;
 }
 
 .list-bar.buttons li a {
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 /* LAYOUT: CONTAINERS*/
@@ -401,8 +405,8 @@ main {
     .wide,
     .narrow {
         padding: 0.75em 1.5em;
-    } 
-    
+    }
+
     .inset {
         padding: 0;
     }
@@ -421,7 +425,7 @@ main {
     }
 }
 
-@media screen and (max-width: 480px) {    
+@media screen and (max-width: 480px) {
     .cut {
         max-width: 100%;
     }
@@ -461,17 +465,17 @@ main {
         width: 100%;
         padding-right: 0;
     }
-    
+
     .third {
         width: 100%;
         padding-right: 0;
     }
-    
+
     .two-thirds {
         width: 100%;
         padding-right: 0;
     }
-    
+
     .quarter {
         width: 50%;
         padding-right: 0;
@@ -621,7 +625,7 @@ main {
     }
 }
 
-@media screen and (max-width: 360px) {    
+@media screen and (max-width: 360px) {
     #bio-prof-pic {
         width: 200px;
         margin-top: -180px;
@@ -742,7 +746,7 @@ a.ilabel:hover {
 
 .posts-entry-title {
     font-weight: 600;
-    margin-right: 0.5em;    
+    margin-right: 0.5em;
 }
 
 .posts-entry-date {
